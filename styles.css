@@ -1,0 +1,187 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body{
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+}
+
+.jumbotron {
+    position: relative;
+    background: #1A1A1D;
+    overflow: hidden;
+}
+.jumbotron:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.1;
+    background-image: url('img/ss.png');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+
+li.nav-item{
+    padding: 0rem 0.5rem 0rem 0.5rem;
+}
+
+li.nav-items {
+    padding: 0rem -0.5rem 0rem -0.5rem;
+}
+
+
+.img-head{
+    margin-left: -7rem;
+} 
+
+.hungry{
+    font-size:2.5rem;
+    font-family: Montserrat Alternates;
+    color: #ffffff;
+    padding-top: 5rem;
+    text-align: justify;
+    padding-bottom: 1.5rem;
+    letter-spacing: 0.03em;
+    font-weight: 800;
+}
+
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 400px) {  
+    .hungry{
+        padding-top: 5rem; 
+    padding-bottom: 1.5rem;
+        font-size : 3.5rem;
+    } /*1rem = 16px*/
+    .img-head{
+        display: block;
+        width: 350px;
+        margin-left: -3rem;
+    }
+    }
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+.hungry{
+    padding-top: 3rem; 
+    font-size : 2.2rem;
+} /*1rem = 16px*/
+.img-head{
+    display: block;
+    width: 350px;
+    margin-left: -4rem;
+}
+}
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+.hungry {font-size:3rem;} /*1rem = 16px*/
+.img-head{
+    display: block;
+    width: 400px;
+    margin-left: -5rem;
+}
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+.hungry {
+    font-size:4rem;
+    font-weight: 900;
+} /*1rem = 16px*/
+.img-head{
+    display: block;
+    width: 500px;
+    margin-left: -4rem;
+}
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+.hungry {
+    padding: 0rem; 
+    font-size:5rem;
+    font-weight: 900;
+} 
+.img-head{
+    display: block;
+    width: 750px;
+    margin-left: -9rem;
+}
+}
+
+
+.header-text{
+    font-family: Montserrat Alternates;
+    font-weight: 400;
+    color: #D9D7D7;
+    letter-spacing: 0.07em;
+    margin-left: 4px;
+}
+
+span.vanilla{
+    color: #FF6584;
+    cursor: pointer;
+}
+
+.title {
+    z-index: 1;
+    font-family: 'Montserrat';
+    letter-spacing: -0.10em;
+    color: #f3f0f0;
+    font-weight: 100;
+    user-select: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.sider{
+    cursor: pointer;
+    color: #f3f0f0;
+    letter-spacing: 0.07em;
+    font-family: 'Montserrat Alternates';
+}
+
+.buy{
+    font-family: montserrat alternates;
+    font-weight: 400;
+    padding: 8px 20px 8px 20px;
+    border-radius: 253px;
+    background: none;
+    border: solid 2px whitesmoke;
+    color: whitesmoke;
+    letter-spacing: 0.7px;
+    cursor: pointer;
+    transition: all .1s ease-in;
+}
+
+.explore{
+    font-family: montserrat alternates;
+    font-weight: 400;
+    padding: 10px 22px 10px 22px;
+    border-radius: 253px;
+    border: none;
+    outline: none;
+    user-select: none;
+    margin-left: 2px;
+    color: white;
+    background: linear-gradient(310.89deg, #EB4C72 43.94%, #F286AE 91.88%);
+    letter-spacing: 0.7px;
+    cursor: pointer;
+}
+
+.bt {
+    margin-right: 1rem;
+    margin-top: 1rem;
+}

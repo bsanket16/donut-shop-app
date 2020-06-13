@@ -1,0 +1,22 @@
+.bg-primary {
+    background-color: #1A1A1D !important;
+}
+
+.row-first{
+    min-height: 60vh;
+}
+
+.navbar{
+    padding-top: 0.5rem;
+}
+
+.navbar-dark .navbar-toggler {
+    user-select: none;
+    border: none;
+    outline: none;
+}
+
+.fa-search:before {
+    color: rgba(255,255,255,.5);
+    cursor: pointer;
+}
