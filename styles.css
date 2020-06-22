@@ -7,12 +7,13 @@
 body{
     padding: 50px 0px 0px 0px;
     z-index: 0;
-    
 }
 
 .jumbotron {
     position: relative;
     background: #1A1A1D;
+    background-size: contain;
+    overflow: hidden;
 }
 .jumbotron:before {
     content: ' ';
@@ -65,7 +66,7 @@ li.nav-items {
     .hungry{
         padding-top: 5rem; 
     padding-bottom: 1.5rem;
-        font-size : 3.5rem;
+        font-size :3.2rem;
     } /*1rem = 16px*/
     .img-head{
         display: block;
@@ -77,12 +78,16 @@ li.nav-items {
 @media (min-width: 544px) {  
 .hungry{
     padding-top: 3rem; 
-    font-size : 2.2rem;
+    font-size : 2rem;
 } /*1rem = 16px*/
+.header-text{
+    margin-top: -1rem;
+    font-size: 0.9rem ;
+}
 .img-head{
     display: block;
-    width: 350px;
-    margin-left: -4rem;
+    width: 400px;
+    margin-left: -5rem;
 }
 }
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
@@ -90,8 +95,8 @@ li.nav-items {
 .hungry {font-size:3rem;} /*1rem = 16px*/
 .img-head{
     display: block;
-    width: 400px;
-    margin-left: -5rem;
+    width: 550px;
+    margin-left: -8rem;
 }
 }
 /* Large devices (desktops, 992px and up) */
@@ -102,8 +107,8 @@ li.nav-items {
 } /*1rem = 16px*/
 .img-head{
     display: block;
-    width: 500px;
-    margin-left: -4rem;
+    width: 670px;
+    margin-left: -10rem;
 }
 }
 /* Extra large devices (large desktops, 1200px and up) */
@@ -115,9 +120,23 @@ li.nav-items {
 } 
 .img-head{
     display: block;
-    width: 750px;
+    width: 700px;
     margin-left: -9rem;
 }
+.header-text{
+    margin-top: 0.2rem;
+}
+}
+
+@media screen and (min-width: 544px) and (max-width:575px) {
+    .hungry{
+        padding-top: 5rem; 
+    padding-bottom: 1.5rem;
+        font-size :3.2rem;
+    } /*1rem = 16px*/
+    .header-text{
+        font-size: 1.2rem;
+    }
 }
 
 
