@@ -169,7 +169,7 @@ span.vanilla{
 .img {
     opacity: 95%;
     background-color: #F5F5F5;
-    width: 230px;
+    width: 215px;
     height: 270px;
     border-bottom: 2px solid #FF6584;
     overflow: hidden;
@@ -178,7 +178,7 @@ span.vanilla{
 .imgi {
     opacity: 95%;
     background-color: #F5F5F5;
-    width: 230px;
+    width: 215px;
     height: 270px;
     overflow: hidden;
 
@@ -325,8 +325,8 @@ margin-left: -45px;
 .line{
     border-left: 1px solid #FF6584;
     height: 1080px;
-    margin-left: 2rem;
     user-select: none;
+    opacity: 20%;
 }
 
 
@@ -359,10 +359,11 @@ margin-left: -45px;
     overflow: hidden;
 }
 
-.happy{
-    margin-left: 96px;
-    margin-top: -20px;
-    width:218px;
+.line2{
+    margin-top: 45px;
+    border-top: 1px solid #FF6584;  
+    width: 400px;
+    overflow: hidden;
 }
 
 .emp{
