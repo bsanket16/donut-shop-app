@@ -65,8 +65,8 @@ li.nav-items {
 @media (min-width: 400px) {  
     .hungry{
         padding-top: 5rem; 
-    padding-bottom: 1.5rem;
-        font-size :3.2rem;
+    padding-bottom: 1rem;
+        font-size :3.5rem;
     } /*1rem = 16px*/
     .img-head{
         display: block;
