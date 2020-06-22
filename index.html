@@ -11,16 +11,17 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
-    <link rel="stylesheet" href="styles.css" type="text/css">
-    <link rel="stylesheet" href="override.css" type="text/css">
+    <link rel="stylesheet" href="/css/styles.css" type="text/css">
+    <link rel="stylesheet" href="/css/override.css" type="text/css">
+    <link rel="stylesheet" href="/css/mediaq.css" type="text/css">
     <title>donutale</title>
 
 </head>
 <body>
     
-    <!-- Navbar -->
+<!-- Navbar -->
 
-    <nav class="navbar navbar-expand-sm navbar-dark bg-primary fixed-top">
+<nav class="navbar navbar-expand-sm navbar-dark bg-primary fixed-top">
         <div class="container d-flex">
             <a class="navbar-brand title mr-5" href="#">donutale.co</a>
             <button class="fa fa-bars navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
@@ -72,11 +73,11 @@
 
         </div>
 
-    </nav>
+</nav>
 
-    <!-- hero Section -->
+<!-- hero Section -->
 
-    <header class="jumbotron">
+<header class="jumbotron">
         
         <div class="container">
             <div class="row row-first align-items-center">
@@ -107,19 +108,21 @@
             </div>
         </div>
 
-    </header>
+</header>
 
-    <div class="container">
+<div class="container">
+
         <div class="row">
             
-            <div class="col-12 col-sm-8">
+        <div class="col-12 col-sm-12 col-md-8">
                 
                 <div class="row">
-                    <div class="d-none d-md-block head-title">Donuts, the way you like, What more could you want?</div>
-                    <div class="d-block d-md-none head-title-sm">Donuts, the way you like, What more could you want?</div>
+                    <div class="d-none d-lg-block head-title">Donuts, the way you like, What  more could you want? shop now!</div>
+                    <div class="d-none d-md-block d-lg-none head-title">Donuts, the way you like, What more could you want?</div>
+                    <div class="d-block d-md-none head-title">Donuts, What more could you want?</div>
                 </div>
 
-                <div class="row filter">
+                <div class="row filter"> 
 
                         <div class="col-4 col-sm-3 btn">
                             <button class="bu">latest</button>
@@ -130,7 +133,7 @@
                         </div>
     
                         <div class="col-4 col-sm-3 btn">
-                            <button class="bu"><£20</button>
+                            <button class="bu">< £20</button>
                         </div>
                     
                         <div class="d-none d-sm-block col-sm-3 btn">
@@ -139,83 +142,103 @@
     
                 </div>
 
-                <div class="row acitems  align-items-center" >
+            <div class="row acitems align-items-center" >
 
-                    <div class="row align-items-center">
-                        <div class="col-6 col-sm-6 col-md-4 whole">
+                <div class="row align-items-center">
+
+                        <div class="col-6 col-sm-6 col-xl-4 whole">
                             <div class="img"><img src="/img/bavarian.png" alt="" class="item_imgiiiii" ></div>
                             <div class="item_below">
-                                <div class="details">
-                                    <div class="item_name">BavarianKreme</div>
-                                    <div class="price_tag">£ 14.99</div>
+                                <div class="details d-flex justify-content-xl-between">
+                                    <div class="d-none d-lg-block item_name">Bavarian-Kreme&nbsp&nbsp</div>
+                                    <div class="d-block d-lg-none item_name">&nbsp&nbspBavarian&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</div>
+                                    <div class="price_tag">£14.99</div>
                                 </div>
                                 <div class="add_cart"><button class="addtocart">AddtoCart</button></div>
                             </div>
                         </div>
-                        <div class="col-6  col-sm-6 col-md-4 whole">
+
+
+                        <div class="col-6  col-sm-6 col-lg-4 whole">
                             <div class="img"><img src="/img/donut.png" alt="" class="item_imgiiii"></div>
                             <div class="item_below">
-                                <div class="details">
-                                    <div class="item_name">StrawberryPie</div>
-                                    <div class="price_tag">£ 15.99</div>
+                                <div class="details d-flex justify-content-xl-between">
+                                    <div class="d-none d-lg-block item_name">StrawberryPie&nbsp&nbsp&nbsp&nbsp</div>
+                                    <div class="d-block d-lg-none item_name">&nbsp&nbspStrawberry&nbsp&nbsp&nbsp&nbsp&nbsp</div>
+                                    <div class="price_tag">£15.99</div>
                                 </div>
                                 <div class="add_cart"><button class="addtocart">AddtoCart</button></div>
                             </div>
                         </div>
-                        <div class="col-6 col-sm-6 col-md-4 whole">
+
+
+                        <div class="col-6 col-sm-6 col-xl-4 whole">
                             <div class="img"><img src="/img/choclate.png" alt="" class="item_imgii  "></div>
                             <div class="item_below">
-                                <div class="details">
-                                    <div class="item_name">Chocolate</div>
-                                    <div class="price_tag">£ 18.99</div>
+                                <div class="details d-flex justify-content-xl-between">
+                                    <div class="d-none d-lg-block item_name">Chocolate-Pie&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</div>
+                                    <div class="d-block d-lg-none item_name">&nbsp&nbspChocolate&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</div>
+                                    <div class="price_tag">£18.99</div>
                                 </div>
                                 <div class="add_cart"><button class="addtocart">AddtoCart</button></div>
                             </div>
                         </div>
-                        <div class="col-6  col-sm-6 col-md-4 whole">
-                            <div class="imgi"><img src="/img/boston.png" alt="" class="item_imgi"></div>
+
+
+                        <div class="col-6  col-sm-6 col-xl-4 whole">
+                            <div class="img"><img src="/img/boston.png" alt="" class="item_imgi"></div>
                             <div class="item_below">
-                                <div class="details">
-                                    <div class="item_name">BostonKremePie</div>
-                                    <div class="price_tag">£ 19.99</div>
+                                <div class="details d-flex justify-content-xl-between">
+                                    <div class="d-none d-lg-block item_name">Boston-Kreme&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</div>
+                                    <div class="d-block d-lg-none item_name">&nbsp&nbspBostonPie&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</div>
+                                    <div class="price_tag">£19.99</div>
                                 </div>
                                 <div class="add_cart"><button class="addtocart">AddtoCart</button></div>
                             </div>
                         </div>
-                        <div class="col-6 col-sm-6 col-md-4 whole">
-                            <div class="imgi"><img src="/img/cruller.png" alt="" class="item_imgiiiiii"></div>
+
+
+                        <div class="col-6 col-sm-6 col-xl-4 whole">
+                            <div class="img"><img src="/img/cruller.png" alt="" class="item_imgiiiiii"></div>
                             <div class="item_below">
-                                <div class="details">
-                                    <div class="item_name">CrulleersDonut</div>
-                                    <div class="price_tag">£ 13.99</div>
+                                <div class="details d-flex justify-content-xl-between">
+                                    <div class="d-none d-lg-block item_name">Crullers-Donut&nbsp&nbsp&nbsp</div>
+                                    <div class="d-block d-lg-none item_name">&nbsp&nbspCrullers&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</div>
+                                    <div class="price_tag">£13.99</div>
                                 </div>
                                 <div class="add_cart"><button class="addtocart">AddtoCart</button></div>
                             </div>
                         </div>
-                        <div class="col-6 col-sm-6 col-md-4 whole">
-                            <div class="imgi"><img src="/img/marble.png" alt="" class="item_imgiii"></div>
+
+
+                        <div class="col-6 col-sm-6 col-xl-4 whole">
+                            <div class="img"><img src="/img/marble.png" alt="" class="item_imgiii"></div>
                             <div class="item_below">
-                                <div class="details">
-                                    <div class="item_name">MarbleFrosted</div>
-                                    <div class="price_tag">£ 19.99</div>
+                                <div class="details d-flex justify-content-xl-between">
+                                    <div class="d-none d-lg-block item_name">Marble-Frosted&nbsp&nbsp&nbsp</div>
+                                    <div class="d-block d-lg-none item_name">&nbsp&nbspMarblePie&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</div>
+                                    <div class="price_tag">£19.99</div>
                                 </div>
                                 <div class="add_cart"><button class="addtocart">AddtoCart</button></div>
                             </div>
                         </div>
+
                     </div>
     
                 </div>
 
-            </div>
+        </div>
 
-<!-- <div class="col-12 col-sm-4">
-    b
-</div> -->
+        <div class="line"></div>
+
+        <div class="col-12 col-sm-12 col-md-4">
+            b
+        </div>
 
 
-</div>
-    </div>  
+    </div>
 
+</div>  
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
