@@ -12,7 +12,6 @@ body{
 .jumbotron {
     position: relative;
     background: #1A1A1D;
-    background-size: contain;
     overflow: hidden;
 }
 .jumbotron:before {
@@ -96,6 +95,10 @@ span.vanilla{
 
 .buy{
     appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: 0 !important;
+        text-decoration: none;
     font-family: montserrat alternates;
     font-weight: 400;
     padding: 8px 20px 8px 20px;
@@ -112,6 +115,8 @@ span.vanilla{
     font-family: montserrat alternates;
     font-weight: 400;
     padding: 10px 22px 10px 22px;
+    outline: 0 !important;
+
     border-radius: 253px;
     border: none;
     outline: none;
@@ -144,12 +149,15 @@ span.vanilla{
     display: flex;
     margin-left: -2rem;
     margin-bottom: 1.5rem;
+    
 }
 
 .bu{
     font-family: montserrat alternates;
     font-weight: 500;
     padding: 5px 22px 5px 22px;
+    outline: 0 !important;
+
     border-radius: 253px;
     background: #373737;
     border: none;
@@ -312,4 +320,53 @@ margin-left: -45px;
 }
 .img{
     margin-top: 3rem;
+}
+
+.line{
+    border-left: 1px solid #FF6584;
+    height: 1080px;
+    margin-left: 2rem;
+    user-select: none;
+}
+
+
+.cart_title{
+    font-family: montserrat alternates;
+    font-weight: 400;
+    font-size: 2rem;
+    display: flex;  
+    letter-spacing: -1px;
+    color: #1A1A1D;
+    margin-top: 2.5rem;
+    margin-left: 7rem;
+    opacity: 80%;
+    user-select: none;
+}
+.cart_donut{
+    width: 55px;
+}
+.cart{
+    margin-left: 9px;
+}
+.your{
+    margin-right: 10px;
+}
+
+.line1{
+    margin-top: 15px;
+    border-top: 1px solid #FF6584;  
+    width: 400px;
+    overflow: hidden;
+}
+
+.happy{
+    margin-left: 96px;
+    margin-top: -20px;
+    width:218px;
+}
+
+.emp{
+    font-family: montserrat alternates;
+    opacity: 75%;
+    color: #787878;
 }

@@ -302,6 +302,17 @@ max-height: 100%;
     transform: scale(1.1);
     margin-top: 18px;
 }
+.cart_title{
+    margin-left: 3rem;
+    font-size: 1.5rem;
+}
+.cart_donut{
+    width: 35px;
+}
+.line1{
+    width:200px;
+}
+    
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
@@ -403,6 +414,14 @@ max-height: 100%;
     transform: scale(1.1);
     margin-top: 18px;
 }
+.cart_title{
+    margin-left: 4rem;
+}
+
+.line1{
+    width:250px;
+}
+    
 }
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  
@@ -509,6 +528,18 @@ max-width: 140%;
 max-height: 100%;
     transform: scale(1.1);
     margin-top: 18px;
+}
+.cart_title{
+margin-left: 7rem;
+font-size: 2rem;
+
+}
+.cart_donut{
+    width: 55px;
+}
+
+.line1{
+    width:400px;
 }
 }
 @media screen and (min-width: 544px) and (max-width:575px) {
