@@ -353,3 +353,86 @@ margin-left: -45px;
     opacity: 75%;
     color: #787878;
 }
+
+.title_cart{
+    z-index: 1;
+    font-family: 'Montserrat';
+    letter-spacing: -0.12em;
+    color: #000000;
+    text-align: center;
+    font-size: 2rem;
+    opacity: 80%;
+    font-weight: 300;
+    margin-top: 45px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.side_text{
+    font-family: montserrat;
+    letter-spacing: 0.14em;
+    line-height: 22px;
+    font-size: 0.9rem;
+    opacity: 90%;
+    user-select: none;
+    color: gray;
+    text-align: justify;
+}
+.red{
+    font-family: montserrat;
+    letter-spacing: 0.18em;
+    font-size: 0.8rem;
+    line-height: 20px;
+    text-decoration: underline;
+    color: #FF6584;
+    opacity: 95%;
+    margin-top: 19px;
+    cursor: pointer;
+    text-align: justify;
+}
+
+.scroll{
+    display: flex;
+    justify-content: center;
+    opacity: 70%;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.page1{
+    user-select: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 35px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.page1:hover{
+    color: #FF6584;
+}
+.page2{
+    user-select: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 35px;
+    color: #FF6584;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.page3{
+    user-select: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 35px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.page3:hover{
+    color: #FF6584;
+}
+.page4{
+    user-select: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 35px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.page4:hover{
+    color: #FF6584;
+}
