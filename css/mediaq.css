@@ -27,6 +27,7 @@
         padding: 30px;
         padding-bottom: 20px;
     }
+
 }
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 400px) {  
@@ -159,6 +160,7 @@
         padding-top: 20px;
         padding-bottom: 20px;
     }
+
 }
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 544px) {  
@@ -294,7 +296,7 @@ max-height: 100%;
 }
 }
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 768px) {  
+@media (min-width: 768px) {     
 .hungry {font-size:3rem;} /*1rem = 16px*/
 .img-head{
     display: block;
@@ -448,6 +450,39 @@ max-height: 100%;
 .heading{
     font-size: 1.5rem;
 }
+.item_space{
+    margin-left: -2rem;
+}
+.ac_item{
+    font-size: 0.9rem;
+}
+.ava_text{
+    font-size: 0.8rem;
+}
+.ac_quan{
+    margin-top: -0.3rem;
+    margin-left: -20px;
+}
+.quan-txt{
+    font-size: 0.7rem;
+}
+.cost{
+    font-size: 0.8rem;
+    margin-top: 7px;
+    margin-left: -50px;
+}
+button.pur_button{
+font-size: 0.6rem;
+}
+div.total_price{
+    margin-left:2rem;
+    margin-top: 28px;
+    font-size: 1rem;
+}
+.close{
+    margin-left: -5px;
+    margin-top: 2px;
+}
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
@@ -554,10 +589,10 @@ max-height: 100%;
 }
 
 .line1{
-    width:250px;
+    width:300px;
 }
 .line2{
-    width:250px;
+    width:300px;
 }
 .happy{
     margin-left: 3.2rem;
@@ -605,6 +640,38 @@ max-height: 100%;
 }
 .heading{
     font-size: 1.5rem;
+}
+.item_space{
+    margin-left: -3rem;
+}
+.ac_item{
+    font-size: 0.9rem;
+}
+.ava_text{
+    font-size: 0.8rem;
+}
+.ac_quan{
+    margin-top: -0.3rem;
+    margin-left: -20px;
+}
+.quan-txt{
+    font-size: 0.7rem;
+}
+.cost{
+    font-size: 0.8rem;
+    margin-top: 8px;
+    margin-left: -70px;
+}
+.close{
+    margin-top: 3px;
+    margin-left: -3rem;
+}
+button.pur_button{
+font-size: 0.6rem;
+margin-left: 1.5rem;
+}
+div.total_price{
+    font-size: 1rem;
 }
 }
 /* Extra large devices (large desktops, 1200px and up) */
@@ -777,6 +844,40 @@ font-size: 2rem;
 }
 .heading{
     font-size: 1.5rem;
+}
+.item_space{
+    margin-left: 0.1rem;
+}
+.ac_item{
+    font-size: 1.3rem;
+}
+.ava_text{
+    font-size: 0.9rem;
+}
+.ac_quan{
+    margin-top: -1px;
+    margin-left: -30px;
+}
+.quan-txt{
+    font-size: 0.8rem;
+}
+.cost{
+    font-size: 1rem;
+    margin-top: -3px;
+    margin-left: -50px;
+}
+button.pur_button{
+font-size: 0.9rem;
+margin-left: 3rem;
+}
+div.total_price{
+    margin-left:3rem;
+    margin-top: 28px;
+    font-size: 1.5rem;
+}
+.close{
+    margin-left: 5px;
+    margin-top: -7px;
 }
 }
 @media screen and (min-width: 544px) and (max-width:575px) {

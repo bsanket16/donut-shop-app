@@ -1,0 +1,98 @@
+.item_space{
+    margin-top: 40px;
+}
+.item{
+    margin-left: 4rem;
+}
+.item1{
+    margin-top: -2.4rem;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 20rem;
+}
+    
+    .quantity{
+        display: flex;
+        margin-left: 1rem;  
+    }
+    
+    .available{
+        display: flex;
+    }
+    .tick{
+        opacity: 80%;
+        margin-top: -3px;
+        margin-right: -1px;
+    }
+    .ava_text{
+        font-family: montserrat alternates;
+        font-weight: 500;
+        opacity: 90%;
+    }
+    
+    .ac_quan{
+        display: flex;
+        margin-left: 25px;
+        opacity: 90%;
+        font-family: montserrat alternates;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .cont{
+        margin-left: 3px;
+    }
+    input[type="number"] {
+        width:33px;
+        border: 2px solid #FF6584;
+        border-radius: 5px;
+        padding-left: 3px;
+        outline: none;
+        opacity: 90%;   
+    }
+    
+    input[type=number]::-webkit-inner-spin-button {
+        opacity: 20%;
+    }
+    
+    .buy_cost{
+        font-family: montserrat alternates;
+        font-weight: 500;
+        opacity: 90%;
+    }
+    .closey{
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    
+    .purchase{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: -20px;
+    }
+    
+    .purchase_btn{
+        margin-top: 25px;
+        margin-left: 17px;
+    }
+    .pur_button{
+        font-family: montserrat alternates;
+        font-weight: 400;
+        padding: 10px 20px 10px 20px;
+        border-radius: 253px;
+        font-size: 14px;
+        border: none;
+        margin-left: 2px;
+        color: white;
+        background: linear-gradient(310.89deg, #EB4C72 43.94%, #F286AE 91.88%);
+        letter-spacing: 0.7px;
+        cursor: pointer;
+    }
+    .total_price{
+        font-family: montserrat alternates;
+        font-weight: 500;
+        font-size: 25px;
+        margin-top: 25px;
+        opacity: 80%;
+        margin-right: 45px;
+    }
+    

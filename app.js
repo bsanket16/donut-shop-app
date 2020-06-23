@@ -38,7 +38,7 @@ function removalCartItems(event){
     butClicked.parentElement.parentElement.parentElement.parentElement.remove()
     updatePrice()
     let tp = document.getElementsByClassName('total_price')[0].innerText
-    if(tp === '£ 0'){
+    if(tp === '£0'){
         document.getElementById('pur_button').style.display = "none"
         document.getElementById('line2').style.display = "none"
         document.getElementById('hap').style.display = "block"
@@ -63,7 +63,7 @@ function updatePrice(){
         total = total + (price * quantity)
     }
     total = Math.round(total *100) / 100
-    document.getElementsByClassName('total_price')[0].innerText = '£ ' + total
+    document.getElementsByClassName('total_price')[0].innerText = '£' + total
 }
 
 function addToCartButton(event){
@@ -83,7 +83,7 @@ function cartapp(itemTitle,itemPrice){
     let cartItems = document.getElementsByClassName('buying_area')[0]
     let cartSpec = `
 
-    <div id="remo">
+
 
     <div class="item_space" id="item">
 
@@ -124,8 +124,7 @@ function cartapp(itemTitle,itemPrice){
 
     </div>
 
-</div>
-</div>`
+</div>  `
             
     cartRow.innerHTML = cartSpec
     cartItems.append(cartRow)
