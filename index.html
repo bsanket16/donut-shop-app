@@ -18,11 +18,12 @@
     <title>donutale</title>
 
 </head>
+
 <body>
     
-<!-- Navbar -->
+    <!-- Navbar -->
 
-<nav class="navbar navbar-expand-sm navbar-dark bg-primary fixed-top">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary fixed-top">
         <div class="container d-flex">
             <a class="navbar-brand title mr-5" href="#">donutale.co</a>
             <button class="fa fa-bars navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
@@ -74,11 +75,11 @@
 
         </div>
 
-</nav>
+    </nav>
 
-<!-- hero Section -->
+    <!-- Hero Section -->
 
-<header class="jumbotron">
+    <header class="jumbotron">
         
         <div class="container">
             <div class="row row-first align-items-center">
@@ -109,21 +110,29 @@
             </div>
         </div>
 
-</header>
+    </header>
+
+    <!-- Items & Cart -->
 
 <div class="container">
 
     <div class="row">
             
-        <div class="col-12 col-sm-12 col-md-8">
+        <!-- Items -->
+
+        <div class="col-12 col-sm-12 col-md-8 items">
                 
-                <div class="row">
+            <!-- heading -->
+
+            <div class="row">
                     <div class="d-none d-lg-block head-title">Donuts, the way you like, What  more could you want? shop now!</div>
                     <div class="d-none d-md-block d-lg-none head-title">Donuts, the way you like, What more could you want?</div>
                     <div class="d-block d-md-none head-title">Donuts, What more could you want?</div>
-                </div>
+            </div>
 
-                <div class="row filter"> 
+            <!-- filter items -->
+
+            <div class="row filter"> 
 
                         <div class="col-4 col-sm-3 btn">
                             <button class="bu">latest</button>
@@ -141,7 +150,9 @@
                             <button class="bu">upcoming</button>
                         </div>
     
-                </div>
+            </div>
+
+            <!-- Items -->
 
             <div class="row acitems align-items-center" >
 
@@ -226,19 +237,24 @@
 
                     </div>
     
-                </div>
+            </div>
 
-                <div class="scroll">
+            <!-- scroll section -->
+
+            <div class="scroll">
                     <div class="page1">_</div>
                     <div class="page2">_</div>
                     <div class="page3">_</div>
                     <div class="page4">_</div>
-                </div>
+            </div>
 
         </div>
 
+        <!-- Cart -->
 
-        <div class="col-12 col-sm-12 col-md-4 cartq">  
+        <div class="col-12 col-sm-12 col-md-4 cartq">    
+
+            <!-- cart title -->
 
             <div class="d-none d-md-block row">
                 <div class="cart_title">
@@ -250,16 +266,41 @@
                 </div>
             </div>
 
+            <!-- line -->
+
             <div class="d-none d-md-block line1"></div>
 
-            <div class="d-none d-md-block row">
+        <!-- main cart section -->
+        
+        <div class="cart_main">
+
+            <div class="d-none d-md-block row buying_area">
                 <div class="hapy" id="hap">
                     <img src="/img/cart_empty.png" alt="" class="happy">
                     <p class="emp">cart is empty!</p>
                 </div>
             </div>
 
+            <div class="line2" id="line2"></div>
+
+        </div>
+
+        
+        <div class="purchase" id="pur_button">
+
+            <div class="purchase_btn">
+                <button class="pur_button" onclick="purchase()" >Proceed to Checkout</button>
+            </div>
+            <div class="total_price"></div>
+
+        </div>  
+
+
+            <!-- line2 -->
+
             <div class="d-none d-md-block line2"></div>
+
+            <!-- read more -->
 
             <div class="d-none d-md-block read_more ">
                 <div class="tit">
@@ -267,7 +308,7 @@
                 </div>
                 <div class="side_txt">
                     <p class="side_text">
-                    The biggest online donut shop ever, With more than 250+ delicious donuts.<br><br> Order your favourite donut from our store, check out and share delicious donut recipes only at donutale.co 
+                    The biggest online donut shop ever, With over 2500+ delicious donuts<br><br> Order your favourite donut from our store, check out and share delicious donut recipes only at the donutale.co
                     </p>
                     <div class="side_txt2">
                         <p class="red">Explore More Recipes Here »</p>
@@ -281,14 +322,22 @@
 
     </div>
 
-    <!-- next items -->
-
 </div>  
+
+    <!-- sub-heading-banner -->
+
+    <div class="third">
+    <div class="sub_head">
+        <div class="heading">Abs are great, but have you tried our donuts?</div>
+        <div class="d-none d-sm-none d-md-block sub_heading">Get 10% off on purchase of <span class=pink">Apple Crumb Donut</span> Offer valid till 17/5. </div>
+    </div>
+    </div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
 
 </body>
 </html>

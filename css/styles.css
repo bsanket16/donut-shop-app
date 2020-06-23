@@ -436,3 +436,37 @@ margin-left: -45px;
 .page4:hover{
     color: #FF6584;
 }
+
+.third{
+    border-bottom: 3px solid #FF6584;
+    margin-bottom: 70px;
+    user-select: none;
+}
+.sub_head{
+    padding-top: 50px;
+    padding-bottom: 45px;
+    background-color: #1A1A1D;
+    color: white;
+    text-align: center;
+    
+}
+
+.heading{
+    font-family: montserrat;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.sub_heading{
+    margin-top: 8px;
+    font-family: montserrat;
+    font-weight: 300;
+}
+
+span{
+    color: #FF6584;
+    cursor: pointer;
+    font-weight: 600;
+}

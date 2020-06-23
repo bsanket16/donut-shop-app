@@ -20,6 +20,13 @@
     .addtocart{
         padding: 4px 55px 4px 55px;
     }
+    .heading{
+        font-size: 0.9rem;
+    }
+    .sub_head{
+        padding: 30px;
+        padding-bottom: 20px;
+    }
 }
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 400px) {  
@@ -144,6 +151,13 @@
     }
     .addtocart{
         padding: 6px 62px 6px 65px;
+    }
+    .heading{
+        font-size: 0.9rem;
+    }
+    .sub_head{
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
 /* Small devices (landscape phones, 544px and up) */
@@ -270,6 +284,13 @@ max-height: 100%;
 }
 .addtocart{
     padding: 6px 68px 6px 68px;
+}
+.heading{
+    font-size: 1rem;
+}
+.sub_head{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 }
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
@@ -423,6 +444,9 @@ max-height: 100%;
 .red{
     font-size: 0.5rem;
     margin-left: 2rem;
+}
+.heading{
+    font-size: 1.5rem;
 }
 }
 /* Large devices (desktops, 992px and up) */
@@ -578,6 +602,9 @@ max-height: 100%;
 .red{
     font-size: 0.6rem;
     margin-left: -1rem;
+}
+.heading{
+    font-size: 1.5rem;
 }
 }
 /* Extra large devices (large desktops, 1200px and up) */
@@ -742,11 +769,14 @@ font-size: 2rem;
 }
 .side_text{
     font-size: 0.7rem;
-    margin-left: 4rem;
+    margin-left: 5rem;
 }
 .red{
     font-size: 0.7rem;
-    margin-left: 4rem;
+    margin-left: 5rem;
+}
+.heading{
+    font-size: 1.5rem;
 }
 }
 @media screen and (min-width: 544px) and (max-width:575px) {
