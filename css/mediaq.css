@@ -153,12 +153,18 @@
     .addtocart{
         padding: 6px 62px 6px 65px;
     }
+    .filter{
+        margin-bottom: -50px;
+    }
     .heading{
-        font-size: 0.9rem;
+        font-size: 1.2rem;
     }
     .sub_head{
         padding-top: 20px;
         padding-bottom: 20px;
+    }
+    .purchase{
+        display: none;
     }
 
 }
@@ -878,6 +884,9 @@ div.total_price{
 .close{
     margin-left: 5px;
     margin-top: -7px;
+}
+.title{
+    margin-left: -2rem;
 }
 }
 @media screen and (min-width: 544px) and (max-width:575px) {
