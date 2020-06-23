@@ -166,24 +166,6 @@ span.vanilla{
     cursor: pointer;
 }
 
-.img {
-    opacity: 95%;
-    background-color: #F5F5F5;
-    width: 215px;
-    height: 270px;
-    border-bottom: 2px solid #FF6584;
-    overflow: hidden;
-
-}
-.imgi {
-    opacity: 95%;
-    background-color: #F5F5F5;
-    width: 215px;
-    height: 270px;
-    overflow: hidden;
-
-    border-bottom: 2px solid #FF6584;
-}
 
 .item_below {
     opacity: 95%;

@@ -1,3 +1,26 @@
+@media (min-width:300px) {
+    .img {
+        opacity: 95%;
+        background-color: #F5F5F5;
+        width: 200px;
+        height: 270px;
+        border-bottom: 2px solid #FF6584;
+        overflow: hidden;
+    
+    }
+    .imgi {
+        opacity: 95%;
+        background-color: #F5F5F5;
+        width: 200px;
+        height: 270px;
+        overflow: hidden;
+    
+        border-bottom: 2px solid #FF6584;
+    }
+    .addtocart{
+        padding: 4px 55px 4px 55px;
+    }
+}
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 400px) {  
     .hungry{
@@ -101,6 +124,27 @@
         margin-top: 18px;
     }
 
+    .img {
+        opacity: 95%;
+        background-color: #F5F5F5;
+        width: 210px;
+        height: 270px;
+        border-bottom: 2px solid #FF6584;
+        overflow: hidden;
+    
+    }
+    .imgi {
+        opacity: 95%;
+        background-color: #F5F5F5;
+        width: 210px;
+        height: 270px;
+        overflow: hidden;
+    
+        border-bottom: 2px solid #FF6584;
+    }
+    .addtocart{
+        padding: 6px 60px 6px 60px;
+    }
 }
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 544px) {  
@@ -206,7 +250,27 @@ max-height: 100%;
     transform: scale(1.1);
     margin-top: 18px;
 }
+.img {
+    opacity: 95%;
+    background-color: #F5F5F5;
+    width: 225px;
+    height: 270px;
+    border-bottom: 2px solid #FF6584;
+    overflow: hidden;
 
+}
+.imgi {
+    opacity: 95%;
+    background-color: #F5F5F5;
+    width: 225px;
+    height: 270px;
+    overflow: hidden;
+
+    border-bottom: 2px solid #FF6584;
+}
+.addtocart{
+    padding: 6px 68px 6px 68px;
+}
 }
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
@@ -330,6 +394,24 @@ max-height: 100%;
     font-size: 1rem;
     color: #787878;
 } 
+.img {
+    opacity: 95%;
+    background-color: #F5F5F5;
+    width: 225px;
+    height: 270px;
+    border-bottom: 2px solid #FF6584;
+    overflow: hidden;
+
+}
+.imgi {
+    opacity: 95%;
+    background-color: #F5F5F5;
+    width: 225px;
+    height: 270px;
+    overflow: hidden;
+
+    border-bottom: 2px solid #FF6584;
+}
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
@@ -454,6 +536,24 @@ max-height: 100%;
     margin-top: -20px;
     font-size: 1.2rem;
     color: #787878;
+}
+.img {
+    opacity: 95%;
+    background-color: #F5F5F5;
+    width: 230px;
+    height: 270px;
+    border-bottom: 2px solid #FF6584;
+    overflow: hidden;
+
+}
+.imgi {
+    opacity: 95%;
+    background-color: #F5F5F5;
+    width: 230px;
+    height: 270px;
+    overflow: hidden;
+
+    border-bottom: 2px solid #FF6584;
 }
 }
 /* Extra large devices (large desktops, 1200px and up) */
@@ -590,6 +690,27 @@ font-size: 2rem;
     margin-top: -20px;
     font-size: 1.5rem;
     color: #787878;
+}
+.img {
+    opacity: 95%;
+    background-color: #F5F5F5;
+    width: 235px;
+    height: 270px;
+    border-bottom: 2px solid #FF6584;
+    overflow: hidden;
+
+}
+.imgi {
+    opacity: 95%;
+    background-color: #F5F5F5;
+    width: 235px;
+    height: 270px;
+    overflow: hidden;
+
+    border-bottom: 2px solid #FF6584;
+}
+.addtocart{
+    padding: 6px 72px 6px 72px;
 }
 }
 @media screen and (min-width: 544px) and (max-width:575px) {
