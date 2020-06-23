@@ -134,10 +134,18 @@ function cartapp(itemTitle,itemPrice){
 }
 
 function purchase(){
-    alert("Purchase Successful! Keep Visiting!")
+    alert("Purchase Successful.. Visit Again!")
     let removeEmptyItems = document.getElementById('hap').style.display = "inline"
     document.getElementById('pur_button').style.display = "none"
     document.getElementById('line2').style.display = "none"
-    
+
+    const x = document.getElementsByClassName("item_space")[0];
+
+    while(x.classList == "item_space") {
+        removeItems()
+    }
+}
+
+function removeItems() {
     document.getElementById('item').remove()
 }
