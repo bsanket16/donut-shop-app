@@ -297,8 +297,11 @@ max-height: 100%;
     font-size: 1rem;
 }
 .sub_head{
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.filter{
+    margin-bottom: 0px;
 }
 }
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
